@@ -9,13 +9,17 @@
 /* Begin PBXBuildFile section */
 		CE8C1D8C2686175A008D66A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8C1D8B2686175A008D66A1 /* AppDelegate.swift */; };
 		CE8C1D8E2686175A008D66A1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8C1D8D2686175A008D66A1 /* SceneDelegate.swift */; };
-		CE8C1D902686175A008D66A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8C1D8F2686175A008D66A1 /* ViewController.swift */; };
+		CE8C1D902686175A008D66A1 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8C1D8F2686175A008D66A1 /* HomeViewController.swift */; };
 		CE8C1D932686175A008D66A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE8C1D912686175A008D66A1 /* Main.storyboard */; };
 		CE8C1D962686175A008D66A1 /* Instagram.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CE8C1D942686175A008D66A1 /* Instagram.xcdatamodeld */; };
 		CE8C1D982686175E008D66A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE8C1D972686175E008D66A1 /* Assets.xcassets */; };
 		CE8C1D9B2686175E008D66A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE8C1D992686175E008D66A1 /* LaunchScreen.storyboard */; };
 		CE8C1DA62686175E008D66A1 /* InstagramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8C1DA52686175E008D66A1 /* InstagramTests.swift */; };
 		CE8C1DB12686175E008D66A1 /* InstagramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8C1DB02686175E008D66A1 /* InstagramUITests.swift */; };
+		CE8C1DC426861893008D66A1 /* ExploreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8C1DC326861893008D66A1 /* ExploreViewController.swift */; };
+		CE8C1DC6268618B9008D66A1 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8C1DC5268618B9008D66A1 /* CameraViewController.swift */; };
+		CE8C1DC8268618C9008D66A1 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8C1DC7268618C9008D66A1 /* NotificationViewController.swift */; };
+		CE8C1DCA268618D4008D66A1 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8C1DC9268618D4008D66A1 /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +43,7 @@
 		CE8C1D882686175A008D66A1 /* Instagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Instagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE8C1D8B2686175A008D66A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE8C1D8D2686175A008D66A1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CE8C1D8F2686175A008D66A1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CE8C1D8F2686175A008D66A1 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		CE8C1D922686175A008D66A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CE8C1D952686175A008D66A1 /* Instagram.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Instagram.xcdatamodel; sourceTree = "<group>"; };
 		CE8C1D972686175E008D66A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +55,10 @@
 		CE8C1DAC2686175E008D66A1 /* InstagramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstagramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE8C1DB02686175E008D66A1 /* InstagramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramUITests.swift; sourceTree = "<group>"; };
 		CE8C1DB22686175E008D66A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE8C1DC326861893008D66A1 /* ExploreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewController.swift; sourceTree = "<group>"; };
+		CE8C1DC5268618B9008D66A1 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		CE8C1DC7268618C9008D66A1 /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		CE8C1DC9268618D4008D66A1 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,12 +109,10 @@
 		CE8C1D8A2686175A008D66A1 /* Instagram */ = {
 			isa = PBXGroup;
 			children = (
-				CE8C1D8B2686175A008D66A1 /* AppDelegate.swift */,
-				CE8C1D8D2686175A008D66A1 /* SceneDelegate.swift */,
-				CE8C1D8F2686175A008D66A1 /* ViewController.swift */,
-				CE8C1D912686175A008D66A1 /* Main.storyboard */,
-				CE8C1D972686175E008D66A1 /* Assets.xcassets */,
-				CE8C1D992686175E008D66A1 /* LaunchScreen.storyboard */,
+				CE8C1DC1268617D1008D66A1 /* Resources */,
+				CE8C1DC0268617CB008D66A1 /* Models */,
+				CE8C1DBF268617C5008D66A1 /* Views */,
+				CE8C1DBE268617BB008D66A1 /* Controllers */,
 				CE8C1D9C2686175E008D66A1 /* Info.plist */,
 				CE8C1D942686175A008D66A1 /* Instagram.xcdatamodeld */,
 			);
@@ -129,6 +135,60 @@
 				CE8C1DB22686175E008D66A1 /* Info.plist */,
 			);
 			path = InstagramUITests;
+			sourceTree = "<group>";
+		};
+		CE8C1DBE268617BB008D66A1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CE8C1DCB268618F4008D66A1 /* Core Tabs */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		CE8C1DBF268617C5008D66A1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CE8C1DC226861834008D66A1 /* Storyboards */,
+				CE8C1D972686175E008D66A1 /* Assets.xcassets */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CE8C1DC0268617CB008D66A1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CE8C1DC1268617D1008D66A1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CE8C1D8B2686175A008D66A1 /* AppDelegate.swift */,
+				CE8C1D8D2686175A008D66A1 /* SceneDelegate.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CE8C1DC226861834008D66A1 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				CE8C1D912686175A008D66A1 /* Main.storyboard */,
+				CE8C1D992686175E008D66A1 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		CE8C1DCB268618F4008D66A1 /* Core Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				CE8C1D8F2686175A008D66A1 /* HomeViewController.swift */,
+				CE8C1DC326861893008D66A1 /* ExploreViewController.swift */,
+				CE8C1DC5268618B9008D66A1 /* CameraViewController.swift */,
+				CE8C1DC7268618C9008D66A1 /* NotificationViewController.swift */,
+				CE8C1DC9268618D4008D66A1 /* ProfileViewController.swift */,
+			);
+			path = "Core Tabs";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,9 +322,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE8C1D962686175A008D66A1 /* Instagram.xcdatamodeld in Sources */,
-				CE8C1D902686175A008D66A1 /* ViewController.swift in Sources */,
+				CE8C1D902686175A008D66A1 /* HomeViewController.swift in Sources */,
+				CE8C1DC426861893008D66A1 /* ExploreViewController.swift in Sources */,
+				CE8C1DC8268618C9008D66A1 /* NotificationViewController.swift in Sources */,
 				CE8C1D8C2686175A008D66A1 /* AppDelegate.swift in Sources */,
 				CE8C1D8E2686175A008D66A1 /* SceneDelegate.swift in Sources */,
+				CE8C1DCA268618D4008D66A1 /* ProfileViewController.swift in Sources */,
+				CE8C1DC6268618B9008D66A1 /* CameraViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
