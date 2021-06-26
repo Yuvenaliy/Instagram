@@ -13,12 +13,12 @@ class HomeViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
-        do {
-            try Auth.auth().signOut()
-        }
-        catch {
-            print("failed")
-        }
+//        do {
+//            try Auth.auth().signOut()
+//        }
+//        catch {
+//            print("failed")
+//        }
     }
 
     override func viewDidAppear(_ animated: Bool) {
@@ -34,14 +34,10 @@ class HomeViewController: UIViewController {
             //show log in
             let loginVC = LoginViewController()
             loginVC.modalPresentationStyle = .fullScreen
-            
             present(loginVC, animated: false)
             
             
         }
     }
-    
-    
-
 }
 
