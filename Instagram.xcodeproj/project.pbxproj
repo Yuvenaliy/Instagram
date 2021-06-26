@@ -25,6 +25,10 @@
 		CE770AD32686394200099812 /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE770AD22686394200099812 /* AuthManager.swift */; };
 		CE770AD52686398700099812 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE770AD42686398700099812 /* StorageManager.swift */; };
 		CE770AD726863DE200099812 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE770AD626863DE200099812 /* Extensions.swift */; };
+		CE770ADA26873A8900099812 /* IGFeedPostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE770AD926873A8900099812 /* IGFeedPostTableViewCell.swift */; };
+		CE770ADD26873CD000099812 /* IGFeedPostHeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE770ADC26873CD000099812 /* IGFeedPostHeaderTableViewCell.swift */; };
+		CE770ADF26873CE800099812 /* IGFeedPostActionsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE770ADE26873CE800099812 /* IGFeedPostActionsTableViewCell.swift */; };
+		CE770AE126873D1000099812 /* IGFeedPostGeneralTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE770AE026873D1000099812 /* IGFeedPostGeneralTableViewCell.swift */; };
 		CE8C1D8C2686175A008D66A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8C1D8B2686175A008D66A1 /* AppDelegate.swift */; };
 		CE8C1D8E2686175A008D66A1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8C1D8D2686175A008D66A1 /* SceneDelegate.swift */; };
 		CE8C1D902686175A008D66A1 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8C1D8F2686175A008D66A1 /* HomeViewController.swift */; };
@@ -82,6 +86,10 @@
 		CE770AD22686394200099812 /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
 		CE770AD42686398700099812 /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
 		CE770AD626863DE200099812 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		CE770AD926873A8900099812 /* IGFeedPostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGFeedPostTableViewCell.swift; sourceTree = "<group>"; };
+		CE770ADC26873CD000099812 /* IGFeedPostHeaderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGFeedPostHeaderTableViewCell.swift; sourceTree = "<group>"; };
+		CE770ADE26873CE800099812 /* IGFeedPostActionsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGFeedPostActionsTableViewCell.swift; sourceTree = "<group>"; };
+		CE770AE026873D1000099812 /* IGFeedPostGeneralTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGFeedPostGeneralTableViewCell.swift; sourceTree = "<group>"; };
 		CE8C1D882686175A008D66A1 /* Instagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Instagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE8C1D8B2686175A008D66A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE8C1D8D2686175A008D66A1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -169,6 +177,25 @@
 			name = General;
 			sourceTree = "<group>";
 		};
+		CE770AD826873A5D00099812 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				CE770ADB26873CB800099812 /* Home Feed */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		CE770ADB26873CB800099812 /* Home Feed */ = {
+			isa = PBXGroup;
+			children = (
+				CE770ADC26873CD000099812 /* IGFeedPostHeaderTableViewCell.swift */,
+				CE770ADE26873CE800099812 /* IGFeedPostActionsTableViewCell.swift */,
+				CE770AD926873A8900099812 /* IGFeedPostTableViewCell.swift */,
+				CE770AE026873D1000099812 /* IGFeedPostGeneralTableViewCell.swift */,
+			);
+			path = "Home Feed";
+			sourceTree = "<group>";
+		};
 		CE8C1D7F2686175A008D66A1 = {
 			isa = PBXGroup;
 			children = (
@@ -234,6 +261,7 @@
 		CE8C1DBF268617C5008D66A1 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				CE770AD826873A5D00099812 /* Cells */,
 				CE8C1DC226861834008D66A1 /* Storyboards */,
 				CE8C1D972686175E008D66A1 /* Assets.xcassets */,
 			);
@@ -544,10 +572,13 @@
 				CE770ABC26861D7400099812 /* RegistartionViewController.swift in Sources */,
 				CE770ABA26861D5C00099812 /* LoginViewController.swift in Sources */,
 				CE770AD52686398700099812 /* StorageManager.swift in Sources */,
+				CE770ADD26873CD000099812 /* IGFeedPostHeaderTableViewCell.swift in Sources */,
 				CE8C1D962686175A008D66A1 /* Instagram.xcdatamodeld in Sources */,
 				CE770ACA26861E4100099812 /* PostEditorViewController.swift in Sources */,
 				CE8C1D902686175A008D66A1 /* HomeViewController.swift in Sources */,
+				CE770AE126873D1000099812 /* IGFeedPostGeneralTableViewCell.swift in Sources */,
 				CE8C1DC426861893008D66A1 /* ExploreViewController.swift in Sources */,
+				CE770ADA26873A8900099812 /* IGFeedPostTableViewCell.swift in Sources */,
 				CE8C1DC8268618C9008D66A1 /* NotificationViewController.swift in Sources */,
 				CE770AD726863DE200099812 /* Extensions.swift in Sources */,
 				CE770AC426861DEE00099812 /* ListViewController.swift in Sources */,
@@ -560,6 +591,7 @@
 				CE770AD1268638B400099812 /* DatabaseManager.swift in Sources */,
 				CE770AC226861DDB00099812 /* SettingsViewController.swift in Sources */,
 				CE8C1DC6268618B9008D66A1 /* CameraViewController.swift in Sources */,
+				CE770ADF26873CE800099812 /* IGFeedPostActionsTableViewCell.swift in Sources */,
 				CE770AC826861E0F00099812 /* SearchResultViewController.swift in Sources */,
 				CE770ABE26861D8F00099812 /* PostViewController.swift in Sources */,
 			);
