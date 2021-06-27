@@ -46,6 +46,7 @@
 		CE8C1DC6268618B9008D66A1 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8C1DC5268618B9008D66A1 /* CameraViewController.swift */; };
 		CE8C1DC8268618C9008D66A1 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8C1DC7268618C9008D66A1 /* NotificationViewController.swift */; };
 		CE8C1DCA268618D4008D66A1 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8C1DC9268618D4008D66A1 /* ProfileViewController.swift */; };
+		CEDE845926892C8900078859 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDE845826892C8900078859 /* Models.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -117,6 +118,7 @@
 		CE8C1DC5268618B9008D66A1 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		CE8C1DC7268618C9008D66A1 /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
 		CE8C1DC9268618D4008D66A1 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		CEDE845826892C8900078859 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -291,6 +293,7 @@
 		CE8C1DC0268617CB008D66A1 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				CEDE845826892C8900078859 /* Models.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -612,6 +615,7 @@
 				CE770AC026861DD100099812 /* EditProfileViewController.swift in Sources */,
 				CE8C1DCA268618D4008D66A1 /* ProfileViewController.swift in Sources */,
 				CE770AD1268638B400099812 /* DatabaseManager.swift in Sources */,
+				CEDE845926892C8900078859 /* Models.swift in Sources */,
 				CE770AC226861DDB00099812 /* SettingsViewController.swift in Sources */,
 				CE8C1DC6268618B9008D66A1 /* CameraViewController.swift in Sources */,
 				CE770ADF26873CE800099812 /* IGFeedPostActionsTableViewCell.swift in Sources */,
