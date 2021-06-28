@@ -47,6 +47,9 @@
 		CE8C1DC8268618C9008D66A1 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8C1DC7268618C9008D66A1 /* NotificationViewController.swift */; };
 		CE8C1DCA268618D4008D66A1 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8C1DC9268618D4008D66A1 /* ProfileViewController.swift */; };
 		CEAB1B77268A346500636DF8 /* UserFollowTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAB1B76268A346500636DF8 /* UserFollowTableViewCell.swift */; };
+		CEAB1B79268A608A00636DF8 /* NoNotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAB1B78268A608A00636DF8 /* NoNotificationsView.swift */; };
+		CEAB1B7C268A64F000636DF8 /* NotificationFollowEventTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAB1B7B268A64F000636DF8 /* NotificationFollowEventTableViewCell.swift */; };
+		CEAB1B7E268A650600636DF8 /* NotificationLikeEventTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAB1B7D268A650600636DF8 /* NotificationLikeEventTableViewCell.swift */; };
 		CEDE845926892C8900078859 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDE845826892C8900078859 /* Models.swift */; };
 /* End PBXBuildFile section */
 
@@ -120,6 +123,9 @@
 		CE8C1DC7268618C9008D66A1 /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
 		CE8C1DC9268618D4008D66A1 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		CEAB1B76268A346500636DF8 /* UserFollowTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserFollowTableViewCell.swift; sourceTree = "<group>"; };
+		CEAB1B78268A608A00636DF8 /* NoNotificationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoNotificationsView.swift; sourceTree = "<group>"; };
+		CEAB1B7B268A64F000636DF8 /* NotificationFollowEventTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationFollowEventTableViewCell.swift; sourceTree = "<group>"; };
+		CEAB1B7D268A650600636DF8 /* NotificationLikeEventTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationLikeEventTableViewCell.swift; sourceTree = "<group>"; };
 		CEDE845826892C8900078859 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -192,6 +198,7 @@
 		CE770AD826873A5D00099812 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
+				CEAB1B7A268A64B900636DF8 /* Notifications */,
 				CE770ADB26873CB800099812 /* Home Feed */,
 				CE770AE22687CBEE00099812 /* FormTableViewCell.swift */,
 				CE770AE526891B0500099812 /* PhotoCollectionViewCell.swift */,
@@ -289,6 +296,7 @@
 				CE770AD826873A5D00099812 /* Cells */,
 				CE8C1DC226861834008D66A1 /* Storyboards */,
 				CE8C1D972686175E008D66A1 /* Assets.xcassets */,
+				CEAB1B78268A608A00636DF8 /* NoNotificationsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -353,6 +361,15 @@
 				CE770ABB26861D7400099812 /* RegistartionViewController.swift */,
 			);
 			name = Onboarding;
+			sourceTree = "<group>";
+		};
+		CEAB1B7A268A64B900636DF8 /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				CEAB1B7B268A64F000636DF8 /* NotificationFollowEventTableViewCell.swift */,
+				CEAB1B7D268A650600636DF8 /* NotificationLikeEventTableViewCell.swift */,
+			);
+			path = Notifications;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -605,8 +622,11 @@
 				CE770AE126873D1000099812 /* IGFeedPostGeneralTableViewCell.swift in Sources */,
 				CE8C1DC426861893008D66A1 /* ExploreViewController.swift in Sources */,
 				CE770AE32687CBEE00099812 /* FormTableViewCell.swift in Sources */,
+				CEAB1B79268A608A00636DF8 /* NoNotificationsView.swift in Sources */,
 				CE770ADA26873A8900099812 /* IGFeedPostTableViewCell.swift in Sources */,
 				CE8C1DC8268618C9008D66A1 /* NotificationViewController.swift in Sources */,
+				CEAB1B7E268A650600636DF8 /* NotificationLikeEventTableViewCell.swift in Sources */,
+				CEAB1B7C268A64F000636DF8 /* NotificationFollowEventTableViewCell.swift in Sources */,
 				CEAB1B77268A346500636DF8 /* UserFollowTableViewCell.swift in Sources */,
 				CE770AD726863DE200099812 /* Extensions.swift in Sources */,
 				CE770AC426861DEE00099812 /* ListViewController.swift in Sources */,
